@@ -4,6 +4,7 @@ public class BonusGaji
 {
     static void Main()
     {
+        //staticCode
         // Console.Write("Masukkan Masa Kerja (tahun): ");
         // int masaKerja = int.Parse(Console.ReadLine());
 
@@ -37,13 +38,13 @@ public class BonusGaji
         Console.Write("Masukkan Nilai Kinerja: ");
         int kinerja = int.Parse(Console.ReadLine());
 
-        if (kinerja >= 80)
+        if (kinerja < 80)
         {
-            Console.WriteLine("Bonus Karyawan: Rp.1.000.000");
-        } else
-        {
-            Console.WriteLine("Bonus Karyaran Rp.500.000");
+            Console.WriteLine("Bonus Karyawan: Rp.500.000");
+            return;
         }
+           
+        Console.WriteLine("Bonus Karyaran Rp.1.000.000");
 
     }
 }
