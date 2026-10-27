@@ -17,7 +17,7 @@ public class Beasiswa
         Console.Write("Masukkan IPK Pendaftar: ");
         ipk = double.Parse(Console.ReadLine());
 
-        if (ipk >= 3.5)
+        if (ipk >= 3.25)
         {
             Console.WriteLine("[STATUS] IPK Memenuhi Syarat. Melanjutkan ke tahap 2.....");
             Console.Write("Masukkan Skor TOEFL: ");
