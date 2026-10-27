@@ -21,10 +21,8 @@ public class Latian
 
         if (status == 1)
         {
-
             if (denda == 0)
             {
-
                 if (bukuDipinjam < 3)
                 {
                     Console.WriteLine("Peminjaman Disetujui, Sisa Kuota: "+ (3 - bukuDipinjam) + " buku");
